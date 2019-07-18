@@ -9,8 +9,8 @@ The current version puts together data from various existing databases in order 
 
 The current data contains stimuli and eyetracking from the following databases:
 
-- [Antonie coutrot Database 1 \& Database 2] (http://antoinecoutrot.magix.net/public/databases.html)
-- A subset of 76 sequences of [DIEM] (http://jhenderson.org/vclab/DIEM.html)
+- Antonie coutrot's [Database 1 \& Database 2](http://antoinecoutrot.magix.net/public/databases.html)
+- A subset of 76 sequences of [DIEM](http://jhenderson.org/vclab/DIEM.html)
 
 This data accounts for 150 video sequences summing to 267109 frames of approximately 2 hours and 33 minutes length. This data is grouped into 'Nature', 'Social events', and 'Miscellaneous' categories. The following table shows the number of videos in each category and train/val/test fold:
 
@@ -40,7 +40,7 @@ The preprocessed data as used in [DAVE](https://arxiv.org/abs/1905.10693) is ava
 In using this data, we kindly ask you to cite all the following publications:
 
 
-'''
+```
 @article{Tavakoli2019,
   author    = {Hamed R. Tavakoli and Ali Borji and Esa Rahtu and Juho Kannala},
   title     = {DAVE: A Deep Audio-Visual Embedding for Dynamic Saliency Prediction},
@@ -49,9 +49,9 @@ In using this data, we kindly ask you to cite all the following publications:
   year      = {2019},
   url       = {http://arxiv.org/abs/1905.10693},
 }
-'''
+```
 
-'''
+```
 @article{Coutrot2014,
     author = {Antoine Coutrot and Nathalie Guyader},
     title = "{How saliency, faces, and sound influence gaze in dynamic social scenesShort Title??}",
@@ -61,25 +61,27 @@ In using this data, we kindly ask you to cite all the following publications:
     pages = {5-5},
     year = {2014},
 }
-'''
+```
 
-'''
-@INPROCEEDINGS{7362640,
+```
+@INPROCEEDINGS{Coutrot2015,
 author={Antoine Coutrot and Nathalie Guyader},
 booktitle={2015 23rd European Signal Processing Conference (EUSIPCO)},
 title={An efficient audiovisual saliency model to predict eye positions when looking at conversations},
 year={2015}
-'''
+```
 
-'''
-@INPROCEEDINGS{7362640,
-author={Antoine Coutrot and Nathalie Guyader},
-booktitle={2015 23rd European Signal Processing Conference (EUSIPCO)},
-title={An efficient audiovisual saliency model to predict eye positions when looking at conversations},
-year={2015}
-'''
+```
+@Article{Mital2011,
+  Title                    = {Clustering of Gaze During Dynamic Scene Viewing is Predicted by Motion},
+  Author                   = { Parag K. Mital and Tim J. Smith and Robin L. Hill and John M. Henderson},
+  Journal                  = {Cognitive Computation},
+  Year                     = {2011},
+  Number                   = {1},
+  Pages                    = {5--24},
+  Volume                   = {3},  
+}
+```
 
 
 
-
-### Where to download the data
