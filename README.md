@@ -1,4 +1,4 @@
-## Audio Visual Eyetracking (AVE)
+## Audio Visual Eyetracking (AVE) Corpus
 
 AVE is an effort to provide a large corpus of Audio visual eyetracing data to be used for a range of studies.
 This enables us to employ data intensive techniques to explore the relationship between audio and video in attention deoployment and/or learn saliency models from such data. 
@@ -9,7 +9,7 @@ The current version puts together data from various existing databases in order 
 
 The current data contains stimuli and eyetracking from the following databases:
 
-- Antonie coutrot's [Database 1 \& Database 2](http://antoinecoutrot.magix.net/public/databases.html)
+- Antonie coutrot's [Database 1 & Database 2](http://antoinecoutrot.magix.net/public/databases.html)
 - A subset of 76 sequences of [DIEM](http://jhenderson.org/vclab/DIEM.html)
 
 This data accounts for 150 video sequences summing to 267109 frames of approximately 2 hours and 33 minutes length. This data is grouped into 'Nature', 'Social events', and 'Miscellaneous' categories. The following table shows the number of videos in each category and train/val/test fold:
