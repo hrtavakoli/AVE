@@ -15,14 +15,14 @@ The current data contains stimuli and eyetracking from the following databases:
 This data accounts for 150 video sequences summing to 267109 frames of approximately 2 hours and 33 minutes length. This data is grouped into 'Nature', 'Social events', and 'Miscellaneous' categories. The following table shows the number of videos in each category and train/val/test fold:
 
 |Video type | Train | Validation | Test|
-'--------------------------------------'
-'Nature' 37 ' 6 ' 10 '
-'--------------------------------------'
-'Social Events' 18 ' 16 ' 11 '
-'--------------------------------------'
-'Miscellaneous' 37 ' 7 ' 7 '
-'--------------------------------------'
-'Total (150) '  92 ' 29 ' 29 '
+|--------------------------------------|
+|Nature| 37 | 6 | 10 |
+|--------------------------------------|
+|Social Events| 18 | 16 | 11 |
+|--------------------------------------|
+|Miscellaneous| 37 | 7 | 7 |
+|--------------------------------------|
+|Total (150) |  92 | 29 | 29 |
 
 Please read [DAVE](https://arxiv.org/abs/1905.10693) for more details.
 
