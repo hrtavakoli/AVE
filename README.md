@@ -43,7 +43,7 @@ In using this data, we kindly ask you to cite all the following publications:
 '''
 @article{Tavakoli2019,
   author    = {Hamed R. Tavakoli and Ali Borji and Esa Rahtu and Juho Kannala},
-  title     = {{DAVE:} {A} Deep Audio-Visual Embedding for Dynamic Saliency Prediction},
+  title     = {DAVE: A Deep Audio-Visual Embedding for Dynamic Saliency Prediction},
   journal   = {CoRR},
   volume    = {abs/1905.10693},
   year      = {2019},
