@@ -1,18 +1,18 @@
 ## Audio Visual Eyetracking (AVE) Corpus
 
-AVE is an effort to provide a large corpus of Audio visual eyetracing data to be used for a range of studies.
-This enables us to employ data intensive techniques to explore the relationship between audio and video in attention deoployment and/or learn saliency models from such data. 
+AVE is an effort to provide a large corpus of __audio visual eyetracing__ data to be used for a range of studies.
+This enables us to employ data intensive techniques to explore the relationship between audio and video in attention deployment and/or learn saliency models from such data. 
 
 ### Data
 
-The current version puts together data from various existing databases in order to provide a relatively large scale, diverse set of videos acompained with eye tracking. The original data should be downloaded from the original sources as linked bellow. We provide the splits of train, validation, and test that are used in conjunction with our baseline deep model provided in [DAVE: A Deep Audio-Visual Embedding for Dynamic Saliency Prediction](https://arxiv.org/abs/1905.10693).
+The current version puts together data from various existing databases in order to provide a relatively large scale, diverse set of videos acompained with eye tracking. The original data should be downloaded from the original sources as linked bellow. We provide _the splits of train, validation, and test, plus categorical class of each video_ that are used to develop our baseline deep saliency model presented in [DAVE: A Deep Audio-Visual Embedding for Dynamic Saliency Prediction](https://arxiv.org/abs/1905.10693). 
 
 The current data contains stimuli and eyetracking from the following databases:
 
 - Antonie coutrot's [Database 1 & Database 2](http://antoinecoutrot.magix.net/public/databases.html)
 - A subset of 76 sequences of [DIEM](http://jhenderson.org/vclab/DIEM.html)
 
-This data accounts for 150 video sequences summing to 267109 frames of approximately 2 hours and 33 minutes length. This data is grouped into 'Nature', 'Social events', and 'Miscellaneous' categories. The following table shows the number of videos in each category and train/val/test fold:
+This data accounts for 150 video sequences summing approximately 2 hours and 33 minutes in length. This data is grouped into 'Nature', 'Social events', and 'Miscellaneous' categories. The following table shows the number of videos in each category and train/val/test fold:
 
 |Video type | Train | Validation | Test|
 |--------------------------------------|
